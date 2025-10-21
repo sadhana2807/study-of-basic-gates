@@ -64,16 +64,8 @@ Y= A⊕B
 
 **PROGRAM**
 
-module alllogic_gates ( input a, b, // inputs output and_out, output or_out,
- output not_out, output nand_out, output nor_out, output xor_out, output xnor_out );
- assign and_out  = a & b;   // AND gate
- assign or_out   = a | b;   // OR gate
- assign not_out  = ~a;      
- assign nand_out = ~(a & b);// NAND gate
- assign nor_out  = ~(a | b);// NOR gate
- assign xor_out  = a ^ b;   // XOR gate
- assign xnor_out = ~(a ^ b);// XNOR gate
- endmodule
+<img width="668" height="437" alt="image" src="https://github.com/user-attachments/assets/7fc7b55b-0535-4fc1-8726-8a989e113ec8" />
+
 
 Program for logic gates and verify its truth table in quartus using Verilog programming
 
